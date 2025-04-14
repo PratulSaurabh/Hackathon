@@ -1,13 +1,11 @@
-.container{
-    display: flex;
-}
+
 .leftbox{
     width: 20%;
     height: 80vh;
     border: 2px solid blue;
 }
 .rightbox{
-    width: 80%;
+    width: 10%;
     height: 80vh;
     border: 2px solid rgb(219, 30, 87);
     display: flex;
@@ -18,4 +16,5 @@
     width: 80%;
     height: 80%;
     border: 2px solid yellow;
+    display: flex;
 }
