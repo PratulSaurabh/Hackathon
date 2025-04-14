@@ -43,6 +43,9 @@ function Register() {
   return (
     <div>
       <h1 className="page-header">Register</h1>
+      <div className='row'>
+      <div className='col'></div>
+      <div className='col'>
       <div className="container">
         <div className="mb-3">
           <label htmlFor="">Full Name</label>
@@ -77,6 +80,9 @@ function Register() {
         className="btn btn-success">
           Register
         </button>
+      </div>
+      </div>
+      <div className='col'></div>
       </div>
     </div>
   )

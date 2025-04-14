@@ -45,6 +45,9 @@ function Login() {
   return (
     <div>
         <h1 className="page-header">Login</h1>
+        <div className='row'>
+        <div className='col'></div>
+        <div div className='col'>
         <div className="container">
             <div className="mb-3">
                 <label htmlFor="">Email</label>
@@ -68,6 +71,9 @@ function Login() {
                     Login
                 </button>
             </div>
+        </div>
+        </div>
+        <div className='col'></div>
         </div>
     </div>
   )
