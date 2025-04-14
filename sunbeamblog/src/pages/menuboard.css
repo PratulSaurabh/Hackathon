@@ -1,0 +1,26 @@
+.blogContainer{
+    display: flex;
+}
+.contents{
+    width: 30%;
+    height: 80vh;
+    border: 2px solid black;
+    display: flexbox;
+    flex-direction: column;
+    /* align-items:center ; */
+    align-content: center;
+
+}
+.content-box{
+    width: 70%;
+    height: 80vh;
+    border: 2px solid rgb(219, 14, 14);
+    
+}
+
+.blog-title{
+    text-align: center;
+    font-weight: bold;
+    /* border: 2px solid rgb(63, 223, 42); */
+    margin-bottom: 1rem;
+}
